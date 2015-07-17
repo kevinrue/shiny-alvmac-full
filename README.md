@@ -2,6 +2,11 @@
 Example of a shiny app wrapped around the output object of the
 [GOexpress](http://master.bioconductor.org/packages/devel/bioc/html/GOexpress.html)
 Bioconductor package.
+This application may be run directly from the R command line:
+```
+library(shiny)
+runGitHub(repo = 'shiny-alvmac-full', username = 'kevinrue')
+```
 
 ## GOexpress: Gene Ontology for expression data
 
